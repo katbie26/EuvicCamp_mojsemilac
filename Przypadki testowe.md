@@ -38,20 +38,21 @@ Uzupełnienie wymaganego pola "Imię" poprawnymi danymi|Pole zostało uzupełnio
 Usunięcie danych  z pola "Imię" poprzez użycie krzyżyka|Po usunięciu danych z pola i przejściu na kolejną część formularza, pole zaznacza się na czerwono| 	&#x2611;
 Uzupełnienie wymaganego pola "Nazwisko" poprawnymi danymi|Pole zostało uzupełnione|	&#x2611;
 Usunięcie danych  z pola "Nazwisko" poprzez użycie krzyżyka|Po usunięciu danych z pola i przejściu na kolejną część formularza, pole zaznacza się na czerwono| 	&#x2611;
-Przejście dalej w celu dokończenia rejestracji nowego użytkownika|Przycisk "załóż konto" jest przyceimniony i nie ma możliwości kliknięcia w niego| 	&#x2611;
+Przejście dalej w celu dokończenia rejestracji nowego użytkownika|Przycisk "załóż konto" jest przyciemniony i nie ma możliwości kliknięcia w niego| 	&#x2611;
 <br>
 		
 ### Przypadek testowy numer 5: Walidacja pola "Klauzula o ochronie danych osobowych"		
 		
 Krok|Oczekiwany rezultat|Rzeczywisty rezultat
 ---|---|--- 
-Kliknięcie na "Klauzula o ochronie danych osobowych" w celu uzyskania więcej informacji|Użytkownik zostaje przeniesiony do osobnego ekranu z klauzula| 	&#x2611;
+Kliknięcie na tekst "Klauzula o ochronie danych osobowych" na ekranie z fomularzem założenia konta |Użytkownik zostaje przeniesiony do osobnego ekranu, który zawiera tekst klauzuli| 	&#x2611;
 Kliknięcie na jeden z linków dostępnych w tekście klauzuli|Użytkownik zostaje przeniesiony na webview| 	&#x2611;
 Kliknięcie na adres email dostępny w tekście klauzuli|Użytkownik zostaje przeniesiony na pocztę|Użytkownik nie zostaje przeniesiony na pocztę, lecz wyświetla się biały ekran|
 <br>
 
 ### Przypadek testowy numer 6: Weryfikacja poprawności wysłania linku potwierdzającego założenie konta 		
-		
+Warunek wstępny: Użytkownik podał poprawne dane potrzebne do rejestracji.
+
 Krok|Oczekiwany rezultat|Rzeczywisty rezultat
 ---|---|--- 
 Kliknięcie w przycisk "załóż konto" na ekranie z formularzem założenia konta|Użytkownik zostaje przeniesiony na ekran wysłania formularza z linkiem potwierdzającym| 	&#x2611;
@@ -59,8 +60,9 @@ Sprawdzenie poprawności danych|Adres e-mail wyświetlony w informacji jest zgod
 Kliknięcie w przycisk "zaloguj się"|Użytkownik zostaje przeniesiony na ekran logowania|&#x2611;
 <br>
 			
-### Przypadek testowy numer 7: Weryfikacja próby ponownego wysłania linka aktywacyjnego w przypadku nieotrzymania maila potwierdzającego założenie konta 		
-		
+### Przypadek testowy numer 7: Weryfikacja próby ponownego wysłania linka aktywacyjnego w przypadku nieotrzymania maila potwierdzającego założenie konta 	
+Warunek wstępny: Użytkownik nie otrzymał na podany adres email maila z linkiem potwierdzającym założenie konta lub link potwierdzający założenie konta wygasł
+
 Krok|Oczekiwany rezultat|Rzeczywisty rezultat
 ---|---|--- 
 Kliknięcie w przycisk "załóż konto" na ekranie z formularzem założenia konta|Użytkownik zostaje przeniesiony na ekran wysłania formularza z linkiem potwierdzającym| 	&#x2611;
@@ -69,7 +71,8 @@ Kliknięcie w przycisk "wyślij link ponownie"|Na górze ekranu wyświetla się 
 <br>
 		
 ### Przypadek testowy numer 8: weryfikacja logowania użytkownika po aktywacji konta 		
-		
+Warunek wstępny: Użytkownik przeszedł proces rejestracji i otrzymał link potwierdzający założenie konta na adres email podany w procesie rejestracji
+
 Krok|Oczekiwany rezultat|Rzeczywisty rezultat 
 ---|---|---
 Kliknięcie w link aktywacyjny otrzymany na adres email podany w czasie rejestracji|Użytkownik zostaje przeniesiony na ekran logowania| 	&#x2611;
