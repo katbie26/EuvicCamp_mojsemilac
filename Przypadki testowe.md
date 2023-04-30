@@ -19,7 +19,7 @@ Uzupełnienie  wymaganego pola "Hasło" z uzyciem minimum 8 znaków, w tym liter
 Kliknięcie na "oczko" w celu odkrycia hasła|Po kliknięciu na "oczko", hasło zostaje odkryte|&#x2611;
 Uzupełnienie wymaganego pola "Imię" poprawnymi danymi|Po wypełnieniu pola i przejściu na kolejną część formularza, zaznacza się ono na zielono|	&#x2611;
 Uzupełnienie wymaganego pola "Nazwisko" poprawnymi danymi|Po wypełnieniu pola i przejściu na kolejną część formularza, zaznacza się ono na zielono|	&#x2611;
-Zaznaczenie trzech pól typu checkbox (w tym checkboxa wymaganego, oznaczonego gwiazdką)|&#x2611;Checkboxy zostają zaznaczone, a przycisk "załóż konto" staje się aktywne i podświetla się na różowo|Dostępne są tylko dwa pola typu checkbox
+Zaznaczenie trzech pól typu checkbox (w tym checkboxów wymaganych, oznaczonych gwiazdką)|Checkboxy zostają zaznaczone, a przycisk "załóż konto" staje się aktywne i podświetla się na różowo|Dostępne są tylko dwa pola typu checkbox
 <br>
 		
 ### Przypadek testowy numer 3: weryfikacja możliwości założenia konta nowego użytkownika z podaniem niepoprawnych danych lub brakiem danych 		
