@@ -58,6 +58,7 @@ Kliknięcie w przycsik "wyślij link ponownie"|Na górze ekranu wyświetla się 
 ### Przypadek testowy numer 7: weryfikacja logowania użytkownika po aktywacji konta 		
 		
 Krok|Oczekiwany rezultat|Rzeczywisty rezultat 
+---|---|---
 Kliknięcie w link aktywacyjny otrzymany na adres email podany w czasie rejestracji|Użytkownik zostaje przeniesiony na ekran logowania| 	
 Wpisanie poprawnych danych logowania|Poprawne dane zostały wpisane| 	
 Kliknięcie w przycisk "zaloguj się"|Użytkownik zostaje zalogowany do aplikacji oraz przeniesiony do zakładki "Więcej"|	
